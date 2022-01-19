@@ -2,6 +2,16 @@
     color: #F05454 !important;
 }
 
+.btn-codeparty {
+    background-color: #F05454;
+    color: white;
+}
+
+.btn-codeparty:hover {
+    background-color: #a73939;
+    color: white;
+}
+
 /* ------------------------------------------------------------------ */
 /*                                HEADER                              */
 /* ------------------------------------------------------------------ */
@@ -23,6 +33,27 @@
     object-fit: cover;
     filter: grayscale(70%);
 }
+
+#carousel {
+    position: relative;
+}
+
+#carousel .overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    z-index: 1;
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row {
+    height: 100%;
+}
+
 
 
 /* ------------------------------------------------------------------ */
